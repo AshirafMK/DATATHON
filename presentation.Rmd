@@ -1,0 +1,93 @@
+---
+title: "DATATHON PRESENTATION 2023"
+subtitle: "Optimising Food Production and Distribution to Combat Hunger \n (Case of Uganda)"
+author: "The Equity Visualisers (Uganda)"
+date: "2023-11-06"
+output: beamer_presentation
+theme: "Copenhagen"
+themecolor: "orchid"
+
+header-includes:
+#theme: "AnnArbor"
+#themecolor: "beaver"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## The Team
+
+- Emmanuel Kodwo Mensah
+- Nekesa Patricia
+- Winfred Namutebi
+- Ashiraf Mawanda
+
+## Background
+**\textcolor{red}{Hunger}** is an uncomfortable or painful physical sensation caused by insufficient consumption of dietary energy. It becomes chronic when the person does not consume a sufficient amount of calories (dietary energy) on a regular basis to lead a normal, active and healthy life.
+
+- For decades, FAO has used the \textcolor{blue}{Prevalence of Undernourishment} indicator to estimate the extent of hunger in the world, thus \textcolor{red}{“hunger”} may also be referred to as \textcolor{blue}{undernourishment}.
+
+- Around 735 million people faced hunger in 2022, and more than 3.1
+billion people were unable to afford healthy diets in 2021.
+
+- Between 2021 and 2022, progress was made
+towards reducing hunger in Asia and Latin America, but
+hunger is still on the rise in Africa, Caribbean and
+Western Asia. 
+
+## Background
+
+- The world’s food systems stand at the center of the
+SDGs; however, food systems are under tremendous
+stress from the persistence of global crises and conflict,
+loss of biodiversity and climate change.
+
+[Ref1:](https://hlpf.un.org/sites/default/files/2023-09/Food%20Systems%20Transformation%20Brochure.pdf)
+
+## The SDGs
+
+```{r sdg_images,echo=FALSE,fig.cap="The key SDGs", out.width = "30%", fig.show='hold',}
+knitr::include_graphics(c("images/sdg3.png","images/sdg13.png","images/sdg12.png"))
+#knitr::include_graphics("images/sdg12.png")
+#knitr::include_graphics("images/sdg13.png")
+```
+
+**Transition:** Food Systems - Transforming food systems for a
+sustainable world without hunger
+
+## The datasets
+- High-Frequency Phone Survey 2020-2023: downloaded from [https://microdata.worldbank.org/index.php/catalog/3765/get-microdata] on [04, November, 2023].
+
+- National Panel Survey 2019-2020: Uganda Bureau of Statistics. Uganda National Panel Survey (UNPS) 2019-2020. Ref: UGA_2019_UNPS_v03_M. Dataset
+downloaded from [https://microdata.worldbank.org/index.php/catalog/3902/get-microdata] on [03, November, 2023].
+-
+
+## The Local SDG Problem
+
+Climate change is a key limiting factor towards  achievement of SDG2
+- Through drought - agricultural production is affected (crop yields), promotes pest infestation,
+affects availability of quality water resources, affects HH income.
+
+All these consequently  undermine food security & improved nutrition
+
+
+
+## Problem: Background, The Stats & Progress
+**(What we may include here)**
+
+- Where is Uganda under achieving
+- Any other countries struggling ( potentially in the same region): point to scaling up our soulution
+- Any countries doing better on that aspect for comparative stats
+- What is the proposed solution ( based on the data)
+
+## Food Insecurity Experience Scale (FIES)
+```{r FIES,echo=FALSE,out.width = "80%",fig.cap="Food Insecurity Experience Scale"}
+knitr::include_graphics("images/fies.png")
+
+```
+## Introduction to the Solution
+
+
+
+
